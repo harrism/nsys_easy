@@ -9,8 +9,10 @@ Usage:
 nsys_easy.sh [-t trace] [-s sample] [-c ctxsw] [-o output] [-r report] command
 ```
 
+Example: 
+
 ```
-Example: nsys_easy.sh -t cuda,osrt -s none -c none -o nsys_easy -r cuda_gpu_kernel_sum ./my_program
+nsys_easy.sh -t cuda,osrt -s none -c none -o nsys_easy -r cuda_gpu_kernel_sum ./my_program
 ```
 
 The above command will profile the my_program executable with the specified options and output files.
